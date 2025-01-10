@@ -14,41 +14,144 @@
 
     <style>
         .instagram-content {
-            background-color: yellowgreen;
-            height: 1000px;
-            padding-left: 25px;
+            padding-left: 22px;
             padding-right: 25px;
             padding-top: 35px;
+        }
+        
+        .content-info {
+            
             display: flex;
             
         }
 
-        .instagram-profile-left-section {
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-top: 28px;
+
+        .image-box {
+            margin-left: 70px;
+            margin-right: 70px;
+            margin-top: 30px;
+            height: 170px;
             
         }
 
-        .instagram-profile-right-section {
-            flex: 1;
-        }
+        
 
        .instagram-profile-picture {
         border-radius: 80px;
        }
 
-       .user-content {
+       /* .instagram-profile-left-section {
+        margin-right: 47px;
+       } */
+
+       
+
+       .instagram-profile-right-section {
+            flex: 1;
+            height: 200px;
+        }
+
+        .top-section {
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .user-content {
         display: flex;
-        padding-top: 28px;
+        margin-right: 178px;
        }
 
+       .user-name {
+        padding-top: 5px;
+        font-size: 21px;
+        margin-right: 15px;
+       }
+
+       .profile-btn {
+        font-size: 14px;
+        padding: 8px 15px;
+        background-color: rgb(238, 236, 236);
+        border: none;
+        border-radius: 8px;
+       }
+
+       .edit-btn {
+        margin-right: 10px;
+       }
+
+       .middle-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+       }
+
+       .middle-section p {
+        margin: 0;
+        /* */
+       }
+
+       .middle-section .inst {
+        margin-left: 22px;
+       }
+
+       .middle-section p .num {
+        font-weight: 700;
+        padding-top: 3px;
+       }
+
+       .middle-section p .text {
+        padding-top: 3px;
+        padding-left: 4px;
+       }
+
+       .bottom-section {
+        margin-top: 20px;
+       }
+
+       .owner-name {
+        font-weight: 550;
+        font-size: 13px;
+        word-wrap: break-word;
+        color: rgb(48, 48, 48);
+       }
+
+       .pronouns {
+        font-size: 13px;
+        margin-left: 12px;
+       }
+
+       .bottom-section p .pronouns {
+        color: rgb(151, 149, 149);
+       }
+
+       .caption {
+        margin-top: 3px;
+        font-size: 14px;
+       }
+
+       .caption-message {
+        font-size: 14px;
+       }
+       
+
+       .hidden-text {
+        display: none;
+        font-size: 14px;
+       }
+
+       .word {
+        cursor: pointer;
+        color: rgb(161, 161, 161);
+        text-decoration: none;
+        font-size: 13px;
+       }
+       
     </style>
 </head>
 <body>
    <div class="sidebar-menu">
         <div class="instagram-name">
-            <img src="icons/pngfind.com-logo-de-instagram-png-2171074.png" alt="instagram-name" class="sidebar-icons instagram-name">
+            <img src="icons/instagram name.png" alt="instagram-name" class="sidebar-icons instagram-name">
              
         </div>
         <div class="sidebar-links">
@@ -96,18 +199,94 @@
     </div>
 
     <div class="instagram-content">
-        <div class="instagram-profile-left-section">
-            <img src="icons/instagram img.jpg" alt="user-picture" class="instagram-profile-picture">
+        <div class="content-info">
+            <div class="instagram-profile-left-section">
+                <div class="picture">
+                    <div class="image-box">
+                         <img src="icons/instagram img.jpg" alt="user-picture" class="instagram-profile-picture">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="instagram-profile-right-section">
+                <div class="top-section">
+                    <div class="user-content">
+                        <div class="user-name">morolakemi7</div>
+                        <div class="edit-btn">
+                            <button class="profile-btn">Edit profile</button>
+                        </div>
+                        <div class="view">
+                            <button class="profile-btn">View archive</button>
+                        </div>
+                        <img src="icons/settings (1).png" alt="settings" class="sidebar-icons"> 
+                    </div> 
+                </div>
+    
+                <div class="middle-section">
+                    <p><span class="num">3</span> posts</p>
+                    <p class="inst"><span class="num">500</span><span class="text">followers</span></p>
+                    <p class="inst"><span class="num">330</span><span class="text">following</span></p>
+                </div>
+    
+                <div class="bottom-section">
+                    <p><span class="owner-name">Rachael Rolake</span><span class="pronouns">her/she</span></p>
+                    <p class="caption">°Faith °Hope °Love</p>
+                    <p class="caption-message">`One Life For Christ Is All We Have, One Life For Christ Is So DEAR 🤍</p>
+                    <p class="caption-message">Front-end Web Deceloper... <span class="word" onclick="showText(this, 'text1')">more</span></p>
+                    <div id="text1" class="hidden-text">
+                        Matthew 6:33 ❤ ✝
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+       
+
+
+        <div class="story-section">
+            <div class="">
+                <div class="story">
+                    <div class="story-container">
+                        <img src="icons/me.jpg" alt="me">
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="instagram-profile-right-section">
-            <div class="user-content">
-                <div>morolakemi7</div>
-                <button class="profile-btn">Edit profile</button>
-                <button>View archive</button>
-                <img src="icons/settings (1).png" alt="settings" class="sidebar-icons"> 
-        </div>
    </div>
 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+        function showText(wordElement, textId) {
+            const text = document.getElementById(textId);
+            wordElement.style.display = "none";
+            text.style.display = "block";
+        }
+   </script>
 </body>
 </html>
