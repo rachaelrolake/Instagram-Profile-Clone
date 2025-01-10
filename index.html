@@ -11,141 +11,46 @@
 
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="main.css">
 
     <style>
-        .instagram-content {
-            padding-left: 22px;
-            padding-right: 25px;
-            padding-top: 35px;
-        }
-        
-        .content-info {
-            
+        .toggle-flex {
+            height: 57px;
             display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .toggler img {
+            height: 12px;
+            margin: 2px 4px 2px 0px;
+        }
+
+        .toggler .imgs {
+            height: 13px;
+            margin: 2px 4px 2px 0px;
+        }
+
+        .toggler .imgsa {
+            height: 16px;
+            margin: 1px 4px 1px 0px;
+        }
+
+        .toggler .toggle-name, .toggler .toggle-names {
+            font-size: 13px;
+            text-transform: uppercase;
             
         }
 
-
-        .image-box {
-            margin-left: 70px;
-            margin-right: 70px;
-            margin-top: 30px;
-            height: 170px;
-            
+        .toggler .toggle-names {
+            color: rgb(170, 170, 170);
         }
 
-        
-
-       .instagram-profile-picture {
-        border-radius: 80px;
-       }
-
-       /* .instagram-profile-left-section {
-        margin-right: 47px;
-       } */
-
-       
-
-       .instagram-profile-right-section {
-            flex: 1;
-            height: 200px;
+        .toggler {
+            display: flex;
+            margin-right: 49px;
         }
 
-        .top-section {
-            margin-top: 5px;
-            margin-bottom: 20px;
-        }
-
-        .user-content {
-        display: flex;
-        margin-right: 178px;
-       }
-
-       .user-name {
-        padding-top: 5px;
-        font-size: 21px;
-        margin-right: 15px;
-       }
-
-       .profile-btn {
-        font-size: 14px;
-        padding: 8px 15px;
-        background-color: rgb(238, 236, 236);
-        border: none;
-        border-radius: 8px;
-       }
-
-       .edit-btn {
-        margin-right: 10px;
-       }
-
-       .middle-section {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-       }
-
-       .middle-section p {
-        margin: 0;
-        /* */
-       }
-
-       .middle-section .inst {
-        margin-left: 22px;
-       }
-
-       .middle-section p .num {
-        font-weight: 700;
-        padding-top: 3px;
-       }
-
-       .middle-section p .text {
-        padding-top: 3px;
-        padding-left: 4px;
-       }
-
-       .bottom-section {
-        margin-top: 20px;
-       }
-
-       .owner-name {
-        font-weight: 550;
-        font-size: 13px;
-        word-wrap: break-word;
-        color: rgb(48, 48, 48);
-       }
-
-       .pronouns {
-        font-size: 13px;
-        margin-left: 12px;
-       }
-
-       .bottom-section p .pronouns {
-        color: rgb(151, 149, 149);
-       }
-
-       .caption {
-        margin-top: 3px;
-        font-size: 14px;
-       }
-
-       .caption-message {
-        font-size: 14px;
-       }
-       
-
-       .hidden-text {
-        display: none;
-        font-size: 14px;
-       }
-
-       .word {
-        cursor: pointer;
-        color: rgb(161, 161, 161);
-        text-decoration: none;
-        font-size: 13px;
-       }
-       
     </style>
 </head>
 <body>
@@ -161,7 +66,7 @@
         <div class="sidebar-links">
             <img src="icons/search.png" alt="search" class="sidebar-icons">
             <div>Search</div>
-        </div>
+        </div> 
         <div class="sidebar-links">
             <img src="icons/social.png" alt="explore" class="sidebar-icons">
             <div>Explore</div>
@@ -193,7 +98,7 @@
             <div>Profile</div>
         </div>
         <div class="sidebar-links">
-            <img src="icons/hamburger-menu.svg" alt="" class="sidebar-icons">
+            <img src="icons/hamburger.png" alt="" class="sidebar-icons">
             <div>More</div>
         </div>
     </div>
@@ -218,7 +123,7 @@
                         <div class="view">
                             <button class="profile-btn">View archive</button>
                         </div>
-                        <img src="icons/settings (1).png" alt="settings" class="sidebar-icons"> 
+                        <img src="icons/setting.png" alt="settings" class="sidebar-icons"> 
                     </div> 
                 </div>
     
@@ -244,11 +149,61 @@
 
 
         <div class="story-section">
-            <div class="">
-                <div class="story">
-                    <div class="story-container">
-                        <img src="icons/me.jpg" alt="me">
+            <div class="story-highlights">
+                <div class="story-info">
+                    <div class="story">
+                        <div class="story-container">
+                            <img src="icons/love.jpg" alt="me">
+                            <div>✞︎</div>
+                        </div>
                     </div>
+                </div>
+    
+                <div class="story-info">
+                    <div class="story">
+                        <div class="story-container">
+                            <img src="icons/me.jpg" alt="love">
+                            <div>シ︎</div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="story-info">
+                    <div class="story">
+                        <div class="story-container">
+                            <img src="icons/new.png" alt="new">
+                            <div>New</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        
+            <hr class="horizontal-rule">
+           
+        
+        
+
+        <div class="toogle-info">
+            <div class="toggle-flex">
+                <div class="toggler">
+                    <div class="underline">
+                        <hr class="post-rule">
+                    </div>
+                    <img src="icons/profile.png" alt="profile">
+                    <div class="toggle-name">posts</div>
+                </div>
+
+                <div class="toggler">
+                    <img src="icons/saved.png" alt="saved" class="imgs">
+                    <div class="toggle-names">saved</div>
+                </div>
+
+                <div class="toggler">
+                    <img src="icons/tag.png" alt="tagged" class="imgsa">
+                    <div class="toggle-names">tagged</div>
                 </div>
             </div>
         </div>

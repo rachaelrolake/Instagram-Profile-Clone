@@ -1,0 +1,184 @@
+.instagram-content {
+    padding-left: 22px;
+    padding-right: 25px;
+    padding-top: 35px;
+    margin-right: 55px;
+}
+
+.content-info {
+    display: flex;
+}
+
+.image-box {
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    height: 160px;
+
+}
+
+
+
+.instagram-profile-picture {
+    border-radius: 80px;
+}
+
+/* .instagram-profile-left-section {
+margin-right: 47px;
+} */
+
+
+
+.instagram-profile-right-section {
+    flex: 1;
+    height: 190px;
+}
+
+.top-section {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.user-content {
+    display: flex;
+    margin-right: 178px;
+}
+
+.user-name {
+    padding-top: 5px;
+    font-size: 21px;
+    margin-right: 15px;
+}
+
+.profile-btn {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: rgb(238, 236, 236);
+    border: none;
+    border-radius: 8px;
+   white-space: nowrap;
+}
+
+.profile-btn:hover {
+    background-color: rgb(207, 206, 206);
+}
+
+.edit-btn {
+    margin-right: 10px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.middle-section .inst {
+    margin-left: 22px;
+}
+
+.middle-section p .num {
+    font-weight: 700;
+    padding-top: 3px;
+}
+
+.middle-section p .text {
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+.bottom-section {
+    margin-top: 20px;
+}
+
+.owner-name {
+    font-weight: 550;
+    font-size: 13px;
+    color: rgb(48, 48, 48);
+}
+
+.pronouns {
+    font-size: 13px;
+    margin-left: 12px;
+}
+
+.bottom-section p .pronouns {
+    color: rgb(151, 149, 149);
+}
+
+.caption {
+    margin-top: 3px;
+    font-size: 14px;
+}
+
+.caption-message {
+    font-size: 14px;
+}
+
+
+.hidden-text {
+    display: none;
+    font-size: 14px;
+}
+
+.word {
+    cursor: pointer;
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.story-section {
+    margin-top: 50px;
+}
+
+.story-highlights {
+    display: flex;
+    padding-left: 25px;
+}
+
+.story-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.story-info {
+    margin-right: 22px;
+    margin-left: 21px;
+}
+
+.story img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    padding: 3px;
+    border: 2px solid rgb(201, 201, 201);
+}
+
+.story-container div {
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 50px;
+}
+
+.underline {
+    position: relative;
+}
+
+.horizontal-rule {
+    border: 1pt solid rgb(226, 226, 226);
+}
+
+.post-rule {
+    width: 57px;
+    position: absolute;
+    top: -36px;
+    left: -6px;
+    border-color: black;
+
+}
