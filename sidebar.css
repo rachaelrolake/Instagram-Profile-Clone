@@ -1,5 +1,6 @@
 /*sidebar*/
 .sidebar-menu {
+    background-color: white;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -7,6 +8,7 @@
     width: 220px;
     padding: 8px 12px 20px 12px;
     border-right: 1px solid rgb(221, 218, 218);
+    z-index: 1000;
 }
 
 

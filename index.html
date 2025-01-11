@@ -51,55 +51,67 @@
             margin-right: 49px;
         }
 
+        .instagram-pictures {
+            display: flex;
+            gap: 5px;
+        }
+
+        .instagram-pictures  img {
+            width: 300px;
+            /* height: 200px; */
+        }
+
     </style>
 </head>
 <body>
    <div class="sidebar-menu">
-        <div class="instagram-name">
-            <img src="icons/instagram name.png" alt="instagram-name" class="sidebar-icons instagram-name">
-             
-        </div>
-        <div class="sidebar-links">
-            <img src="icons/home.png" alt="home" class="sidebar-icons">
-            <div>Home</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="icons/search.png" alt="search" class="sidebar-icons">
-            <div>Search</div>
-        </div> 
-        <div class="sidebar-links">
-            <img src="icons/social.png" alt="explore" class="sidebar-icons">
-            <div>Explore</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="icons/clapper.png" alt="reels" class="sidebar-icons">
-            <div>Reels</div>
-        </div>
-        <div class="sidebar-links">
-            <div class="messages-container">
-                <img src="icons/message.png" alt="message" class="sidebar-icons">
-                <div class="message-number">7</div>
+        <div>
+            <div class="instagram-name">
+                <img src="icons/instagram name.png" alt="instagram-name" class="sidebar-icons instagram-name">
+                
             </div>
-            <div>Messages</div>
-        </div>
-        <div class="sidebar-links">
-            <div class="notificayion-container">
-                <img src="icons/heart.png" alt="notification" class="sidebar-icons">
-                <div class="notify"></div>
+            <div class="sidebar-links">
+                <img src="icons/home.png" alt="home" class="sidebar-icons">
+                <div>Home</div>
             </div>
-            <div>Notifications</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="icons/more.png" alt="create" class="sidebar-icons">
-            <div>Create</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="icons/instagram img.jpg" alt="user-picture" class="user-picture">
-            <div>Profile</div>
-        </div>
-        <div class="sidebar-links">
-            <img src="icons/hamburger.png" alt="" class="sidebar-icons">
-            <div>More</div>
+            <div class="sidebar-links">
+                <img src="icons/search.png" alt="search" class="sidebar-icons">
+                <div>Search</div>
+            </div> 
+            <div class="sidebar-links">
+                <img src="icons/social.png" alt="explore" class="sidebar-icons">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="icons/clapper.png" alt="reels" class="sidebar-icons">
+                <div>Reels</div>
+            </div>
+            <div class="sidebar-links">
+                <div class="messages-container">
+                    <img src="icons/message.png" alt="message" class="sidebar-icons">
+                    <div class="message-number">7</div>
+                </div>
+                <div>Messages</div>
+            </div>
+            <div class="sidebar-links">
+                <div class="notificayion-container">
+                    <img src="icons/heart.png" alt="notification" class="sidebar-icons">
+                    <div class="notify"></div>
+                </div>
+                <div>Notifications</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="icons/more.png" alt="create" class="sidebar-icons">
+                <div>Create</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="icons/instagram img.jpg" alt="user-picture" class="user-picture">
+                <div>Profile</div>
+            </div>
+            <div class="sidebar-links">
+                <img src="icons/hamburger.png" alt="" class="sidebar-icons">
+                <div>More</div>
+            </div>
         </div>
     </div>
 
@@ -137,9 +149,9 @@
                     <p><span class="owner-name">Rachael Rolake</span><span class="pronouns">her/she</span></p>
                     <p class="caption">°Faith °Hope °Love</p>
                     <p class="caption-message">`One Life For Christ Is All We Have, One Life For Christ Is So DEAR 🤍</p>
-                    <p class="caption-message">Front-end Web Deceloper... <span class="word" onclick="showText(this, 'text1')">more</span></p>
+                    <p class="caption-message">Front-end Web Developer<span class="word" onclick="showText(this, 'text1')"> <span class="period">...</span> more</span></p>
                     <div id="text1" class="hidden-text">
-                        Matthew 6:33 ❤ ✝
+                        Matthew 6:33 🧡
                     </div>
                 </div>
     
@@ -208,6 +220,18 @@
             </div>
         </div>
 
+        <div class="instagram-pictures">
+            <div class="instapic1">
+                <img src="image/insta-pic1.jpg" alt="">
+            </div>
+            <div class="instapic2">
+                <img src="image/insta-pic2.jpg" alt="">
+            </div>
+            <div class="instapic3">
+                <img src="image/insta-pic3.jpg" alt="">
+            </div>
+        </div>
+
    </div>
 
 
@@ -236,12 +260,6 @@
 
 
 
-   <script>
-        function showText(wordElement, textId) {
-            const text = document.getElementById(textId);
-            wordElement.style.display = "none";
-            text.style.display = "block";
-        }
-   </script>
+   <script src="index.js">   </script>
 </body>
 </html>
