@@ -32,21 +32,29 @@
             margin-right: 4px;
             color: rgb(141, 141, 141);
             white-space: nowrap;
+            cursor: pointer;
+            transition: text-decoration 0.15s ease-out;
+        }
+
+        .instagram-links:hover {
+            text-decoration: underline;
         }
 
         .wrapp {
-            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 50px;
             display: flex;
             justify-content: center;
         }
 
+        
 
         #languages {
             border: none;
             color: rgb(117, 117, 117);
             vertical-align: middle;
             appearance: none;
-            background: url(icons/down-arrow.png) no-repeat  center;
+            background: url(icons/down-arrow\ \(1\).png) no-repeat  center;
             background-size: 27px;
         }
 
@@ -120,7 +128,7 @@
                 <div class="picture">
                     <div class="image-box">
                         <div class="note-box">
-                            <div class="note-area"></div>
+                            <div class="note-area"><span>Note...</span></div>
                             <div class="little-circle"></div>
                             <div class="small-circle"></div>
                             <img src="icons/instagram img.jpg" alt="user-picture" class="instagram-profile-picture">
@@ -228,6 +236,16 @@
         <div class="instagram-pictures">
             <div class="instapic1">
                 <img src="image/insta-pic1.jpg" alt="">
+                <div class="hover-cover">
+                    <div class="inst-post-like">
+                        <img src="icons/like.png" alt="like" class="like-icon">
+                        <div class="like-num">124</div>
+                    </div>
+                    <div class="inst-post-like">
+                        <img src="icons/comment (2).png" alt="comment" class="like-icon">
+                        <div class="like-num">10</div>
+                    </div>
+                </div>
             </div>
             <div class="instapic2">
                 <img src="image/insta-pic2.jpg" alt="">
@@ -282,8 +300,7 @@
                 <option value="Spanish ">Español</option>
                 <option value="Swedish">Svenska</option>
                 <option value="Tagalog">Filipino</option>
-                <option value="">ภาษาไทย</option>
-                <option value="Thai"></option>
+                <option value="Thai">ภาษาไทย</option>
                 <option value="Turkish">Türkçe</option>
                 
             </select>

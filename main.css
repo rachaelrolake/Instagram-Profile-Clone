@@ -30,6 +30,16 @@
     border-radius: 14px;
     background-color: white;
     box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.note-area span {
+    position: absolute;
+    font-size: 12px;
+    top: 13px;
+    left: 12px;
+    color: rgb(151, 149, 149);
 }
 
 .little-circle {
@@ -214,7 +224,7 @@ margin-right: 47px;
 .post-rule {
     width: 57px;
     position: absolute;
-    top: -36px;
+    top: -39px;
     left: -6px;
     border-color: black;
 
@@ -270,3 +280,44 @@ margin-right: 47px;
     cursor: pointer;
     /* height: 200px; */
 }
+
+.instapic1 {
+    position: relative;
+}
+
+.hover-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    transform: background-color 0.5s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.hover-cover:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inst-post-like {
+    display: flex;
+
+}
+
+.inst-post-like .like-icon {
+    width: 27px;
+}
+
+.inst-post-like .like-num {
+    font-weight: 800;
+    color: rgb(226, 226, 226);
+    
+}
+
+/* .inst-post-like .like-icon, .inst-post-like .like-num {
+    opacity: 0;
+} */
