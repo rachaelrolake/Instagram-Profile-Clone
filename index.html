@@ -14,52 +14,24 @@
     <link rel="stylesheet" href="main.css">
 
     <style>
-        .toggle-flex {
-            height: 57px;
+        .inst-links-flex {
+            width: 100%;
+            margin-top: 33px;
             display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+            flex-wrap: wrap;
+           justify-content: center;
+           line-height: 20px;
 
-        .toggler img {
-            height: 12px;
-            margin: 2px 4px 2px 0px;
-        }
-
-        .toggler .imgs {
-            height: 13px;
-            margin: 2px 4px 2px 0px;
-        }
-
-        .toggler .imgsa {
-            height: 16px;
-            margin: 1px 4px 1px 0px;
-        }
-
-        .toggler .toggle-name, .toggler .toggle-names {
-            font-size: 13px;
-            text-transform: uppercase;
+            /* margin-left: 77px; */
             
         }
 
-        .toggler .toggle-names {
-            color: rgb(170, 170, 170);
-        }
-
-        .toggler {
-            display: flex;
-            margin-right: 49px;
-        }
-
-        .instagram-pictures {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-           
-        }
-
-        .instagram-pictures  img {
-            width: 305px;
-            /* height: 200px; */
+        .instagram-links {
+            font-size: 12px;
+            margin-left: 6px;
+            margin-right: 4px;
+            color: rgb(141, 141, 141);
+            white-space: nowrap;
         }
 
     </style>
@@ -107,7 +79,7 @@
             </div>
             <div class="sidebar-links">
                 <img src="icons/instagram img.jpg" alt="user-picture" class="user-picture">
-                <div>Profile</div>
+                <div  style="font-weight: 800;">Profile</div>
             </div>
             <div class="sidebar-links">
                 <img src="icons/hamburger.png" alt="" class="sidebar-icons">
@@ -239,30 +211,66 @@
             </div>
         </div>
 
-   </div>
-
-
    
 
 
+        <div class="inst-links-flex">
+            <div class="instagram-links">Meta</div>
+            <div class="instagram-links">About</div>
+            <div class="instagram-links">Blog</div>
+            <div class="instagram-links">Jobs</div>
+            <div class="instagram-links">Help</div>
+            <div class="instagram-links">API</div>
+            <div class="instagram-links">Privacy</div>
+            <div class="instagram-links">Terms</div>
+            <div class="instagram-links">Locations</div>
+            <div class="instagram-links">Instagram Lite</div>
+            <div class="instagram-links">Threads</div>
+            <div class="instagram-links">Contact Uploading & Non-Users</div>
+            <div class="instagram-links">
+                Meta Verified</div>
+        </div>
+
+
+        <select name="languages" id="languages">
+            <option value="English">English</option>
+            <option value="Afrikaans">Afrikaans</option>
+            <option value="Chinese">中文 & 台灣</option>
+            <option value="Czech">Český</option>
+            <option value="Danish">Dansk</option>
+            <option value="Dutch">Nederlands</option>
+            <option value="Finnish">Suomi</option>
+            <option value="French">Français</option>
+            <option value="German">Deutsch</option>
+            <option value="Greek">Ελληνικά</option>
+            <option value="Indonesian">Bahasa Indonesia</option>
+            <option value="Italian">Italiano</option>
+            <option value="Japanese">日本語</option>
+            <option value="Korean">한국어</option>
+            <option value="Malay">Bahasa Melayu</option>
+            <option value="Norwegian">Norsk</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 
 
 

@@ -27,7 +27,7 @@
     height: 40px;
     top: -30px;
     left: 45px;
-    border-radius: 10px;
+    border-radius: 14px;
     background-color: white;
     box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -40,7 +40,16 @@
     top: 5px;
     left: 57px;
     border-radius: 5px;
-    box-shadow: -2px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.small-circle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+    top: 15px;
+    left: 66px;
 }
 
 .instagram-profile-picture {
@@ -209,4 +218,55 @@ margin-right: 47px;
     left: -6px;
     border-color: black;
 
+}
+
+.toggle-flex {
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggler img {
+    height: 12px;
+    margin: 2px 4px 2px 0px;
+}
+
+.toggler .imgs {
+    height: 13px;
+    margin: 2px 4px 2px 0px;
+}
+
+.toggler .imgsa {
+    height: 16px;
+    margin: 1px 4px 1px 0px;
+}
+
+.toggler .toggle-name, .toggler .toggle-names {
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+
+.toggler .toggle-names {
+    color: rgb(170, 170, 170);
+}
+
+.toggler {
+    display: flex;
+    margin-right: 49px;
+}
+
+.instagram-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4px;
+   
+}
+
+.instagram-pictures  img {
+    width: 100%;
+    cursor: pointer;
+    /* height: 200px; */
 }
