@@ -34,6 +34,32 @@
             white-space: nowrap;
         }
 
+        .wrapp {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #languages {
+            border: none;
+            color: rgb(117, 117, 117);
+            vertical-align: middle;
+            appearance: none;
+            background: url(icons/down-arrow.png) no-repeat  center;
+            background-size: 27px;
+        }
+
+        #languages:focus {
+            outline: none;
+        }
+
+        .copyright {
+            font-size: 13px;
+            color: rgb(141, 141, 141);
+        } 
+
+        
     </style>
 </head>
 <body>
@@ -232,41 +258,39 @@
         </div>
 
 
-        <select name="languages" id="languages">
-            <option value="English">English</option>
-            <option value="Afrikaans">Afrikaans</option>
-            <option value="Chinese">中文 & 台灣</option>
-            <option value="Czech">Český</option>
-            <option value="Danish">Dansk</option>
-            <option value="Dutch">Nederlands</option>
-            <option value="Finnish">Suomi</option>
-            <option value="French">Français</option>
-            <option value="German">Deutsch</option>
-            <option value="Greek">Ελληνικά</option>
-            <option value="Indonesian">Bahasa Indonesia</option>
-            <option value="Italian">Italiano</option>
-            <option value="Japanese">日本語</option>
-            <option value="Korean">한국어</option>
-            <option value="Malay">Bahasa Melayu</option>
-            <option value="Norwegian">Norsk</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-        </select>
-
-
+        <div class="wrapp">
+            <select name="languages" id="languages">
+                <option value="English">English</option>
+                <option value="Afrikaans">Afrikaans</option>
+                <option value="Chinese">中文 & 台灣</option>
+                <option value="Czech">Český</option>
+                <option value="Danish">Dansk</option>
+                <option value="Dutch">Nederlands</option>
+                <option value="Finnish">Suomi</option>
+                <option value="French">Français</option>
+                <option value="German">Deutsch</option>
+                <option value="Greek">Ελληνικά</option>
+                <option value="Indonesian">Bahasa Indonesia</option>
+                <option value="Italian">Italiano</option>
+                <option value="Japanese">日本語</option>
+                <option value="Korean">한국어</option>
+                <option value="Malay">Bahasa Melayu</option>
+                <option value="Norwegian">Norsk</option>
+                <option value="Polish">Polski</option>
+                <option value="Portuguese">Português</option>
+                <option value="Russian">Русский</option>
+                <option value="Spanish ">Español</option>
+                <option value="Swedish">Svenska</option>
+                <option value="Tagalog">Filipino</option>
+                <option value="">ภาษาไทย</option>
+                <option value="Thai"></option>
+                <option value="Turkish">Türkçe</option>
+                
+            </select>
+    
+            <div class="copyright">&copy; 2025 Instagram from Meta</div>
+        </div>
+       
 
 
 
