@@ -17,7 +17,31 @@
 
 }
 
+.image-box {
+    position: relative;
+}
 
+.note-area {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    top: -30px;
+    left: 45px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.little-circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    top: 5px;
+    left: 57px;
+    border-radius: 5px;
+    box-shadow: -2px -1px 2px rgba(0, 0, 0, 0.1);
+}
 
 .instagram-profile-picture {
     border-radius: 80px;
