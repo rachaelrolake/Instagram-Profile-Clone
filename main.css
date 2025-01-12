@@ -29,7 +29,8 @@
     left: 45px;
     border-radius: 14px;
     background-color: white;
-    box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.042),
+    -1px -1px 1px rgba(0, 0, 0, 0.037);
     cursor: pointer;
     
 
@@ -58,6 +59,26 @@
     z-index: 50;
     top: -23px;
     right: -37px;
+}
+
+.icons-arrows {
+    position: relative;
+    width: 17px;
+    cursor: default;
+}
+
+.upward-arrow {
+    position: absolute;
+    width: 11px;
+    top: 0;
+    right: 4px;
+}
+
+.downward-arrow {
+    position: absolute;
+    width: 11px;
+    bottom: -24px;
+    right: 4px;
 }
 
 .little-circle {
@@ -131,6 +152,12 @@ margin-right: 47px;
 .edit-btn {
     margin-right: 10px;
     
+}
+
+.setting-icon {
+    height: 23px;
+    margin: 4px 15px 4px 15px;
+    cursor: pointer;
 }
 
 .middle-section {
