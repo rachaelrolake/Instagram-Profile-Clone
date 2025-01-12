@@ -391,3 +391,59 @@ margin-right: 47px;
 /* .inst-post-like .like-icon, .inst-post-like .like-num {
     opacity: 0;
 } */
+
+/*footer*/
+
+.inst-links-flex {
+    width: 100%;
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   line-height: 20px;
+
+    /* margin-left: 77px; */
+    
+}
+
+.instagram-links {
+    font-size: 12px;
+    margin-left: 6px;
+    margin-right: 4px;
+    color: rgb(141, 141, 141);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: text-decoration 0.15s ease-out;
+}
+
+.instagram-links:hover {
+    text-decoration: underline;
+}
+
+.wrapp {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#languages {
+    border: none;
+    color: rgb(117, 117, 117);
+    vertical-align: middle;
+    appearance: none;
+    background: url(icons/down-arrow\ \(1\).png) no-repeat  center;
+    background-size: 27px;
+}
+
+#languages:focus {
+    outline: none;
+}
+
+.copyright {
+    font-size: 13px;
+    color: rgb(141, 141, 141);
+} 
+
