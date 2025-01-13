@@ -3,3 +3,4 @@ function showText(wordElement, textId) {
     wordElement.style.display = "none";
     text.style.display = "block";
 }
+

@@ -64,6 +64,64 @@
     height: 150px;
 }
 
+@media (max-width:768px) {
+
+   .small-screen-layout {
+    display: flex;
+    align-items: center;
+
+   }
+
+   .instagram-profile-left-section {
+    width: 150px;
+   }
+
+    .instagram-profile-picture2 {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    .picture {
+        display: block;
+        padding-top: 119px;
+    }
+
+    .user-content2 {
+        display: flex;
+    }
+
+    .frerseh{
+        padding-top: 30px;
+    }
+
+    .btnser {
+        display: flex;
+        line-height: 70px;
+    }
+
+    .content-info {
+        display: none;
+    }
+    .story-section {
+        margin-top: 22px !important;
+    }
+
+    .story-highlights {
+        padding-left: 0 !important;
+    }
+    
+    .story-info {
+        margin-left: 0 !important;
+        margin-right: 10px !important;
+    }
+
+    .story img {
+        width: 56px !important;
+        height: 56px !important;
+    }
+}
+
 .image-box {
     position: relative;
 }
@@ -177,6 +235,10 @@ margin-right: 47px;
     cursor: pointer;
 }
 
+@media (max-width:768px) {
+    
+}
+
 .profile-btn {
     font-size: 14px;
     font-weight: 500;
@@ -187,6 +249,8 @@ margin-right: 47px;
    white-space: nowrap;
    cursor: pointer;
 }
+
+
 
 .profile-btn:hover {
     background-color: rgb(207, 206, 206);
@@ -449,6 +513,16 @@ margin-right: 47px;
     
 }
 
+@media (max-width:768px) {
+    .inst-links-flex {
+        display: none;
+    }
+
+    .wrapp {
+        display: none !important;
+    }
+}
+
 .instagram-links {
     font-size: 12px;
     margin-left: 6px;
@@ -490,5 +564,59 @@ margin-right: 47px;
     color: rgb(141, 141, 141);
 } 
 
+@media (min-width:767px) {
+    .header {
+        display: none;
+    }
 
+    .base-navigation {
+        display: none;
+    }
+}
 
+@media (max-width:766px) {
+    .header {
+        /* width: 100%; */
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    
+        border: 1px solid rgb(218, 218, 218);
+        padding: 0 16px;
+    }
+    
+    .header-icon {
+        height: 22px;
+        
+    }
+
+    .base-navigation {
+        position: fixed;
+        background-color: white;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-evenly;
+      
+    }
+
+    .base-nav-links img {
+        height: 27px;
+        padding: 12px;
+        
+    }
+
+    /* .base-nav-links img .base-name-icon-user {
+        border-radius: 17px;
+        padding: 12px;
+    } */
+}

@@ -31,6 +31,6 @@ p {
 @media (max-width:768px) {
     body {
         padding-left: 28px;
-        height: 500px;
+        padding-right: 29px;
     }
 }
