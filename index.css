@@ -27,3 +27,9 @@ p {
 
    } 
 } */
+
+@media (max-width:768px) {
+    body {
+        padding-left: 28px;
+    }
+}
