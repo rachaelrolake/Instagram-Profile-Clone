@@ -13,8 +13,16 @@ p {
 }
 
 @media (max-width: 1270px) {
+    body {
+          padding-left: 118px;
+          padding-right: 45px;
+ 
+    } 
+ }
+
+/* @media (max-width: 1270px) {
    body {
          padding-left: 100px;
 
    } 
-}
+} */
