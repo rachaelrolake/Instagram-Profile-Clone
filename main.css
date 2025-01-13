@@ -1,9 +1,16 @@
-.instagram-content {
+/* instagram-content {
     padding-left: 22px;
     padding-right: 25px;
     padding-top: 35px;
     margin-right: 55px;
+} */
+
+.instagram-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 25px;
 }
+
 
 .content-info {
     display: flex;
@@ -15,6 +22,14 @@
     margin-top: 30px;
     height: 160px;
     cursor: pointer;
+}
+
+@media (max-width: 1270px) {
+    .image-box {
+        margin-left: 20px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
 }
 
 .image-box {

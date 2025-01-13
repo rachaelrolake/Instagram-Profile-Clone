@@ -18,6 +18,10 @@
     padding-top: 20px;           
 }
 
+.instagram-new  {
+    visibility: hidden;
+}
+
 .sidebar-icons {
     height: 23px;
     margin: 4px 15px 4px 15px;
@@ -79,4 +83,31 @@
     height: 30px;
     margin: 4px 15px 4px 15px;
     border-radius: 15px;
+}
+
+@media (max-width: 1270px) {
+    .sidebar-menu {
+
+        width: 51px;
+    }
+
+    .sidebar-links .side-name {
+        visibility: hidden;
+    }
+
+    .sidebar-icons {
+        text-align: center;
+    }
+
+    .instagram-name  {
+        visibility: hidden;
+        padding-top: 0px;
+    }
+
+    .instagram-new {
+        height: 23px;
+        visibility: visible;
+        padding-left: 13px;
+        padding-bottom: 12px;
+    }
 }
