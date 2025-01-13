@@ -5,11 +5,11 @@
     margin-right: 55px;
 } */
 
-.instagram-content {
+/* .instagram-content {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 25px;
-}
+} */
 
 /* .image-size {
     width: 100px;
@@ -489,4 +489,6 @@ margin-right: 47px;
     font-size: 13px;
     color: rgb(141, 141, 141);
 } 
+
+
 

@@ -85,7 +85,7 @@
     border-radius: 15px;
 }
 
-@media (max-width: 1264px) {
+@media (max-width: 1264px) and (min-width:769px) {
     .sidebar-menu {
 
         width: 51px;
@@ -111,3 +111,9 @@
         padding-bottom: 12px;
     }
 }
+
+@media (max-width:768px) {
+    .sidebar-menu {
+        visibility: hidden;
+    }
+} 
