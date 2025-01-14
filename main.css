@@ -693,6 +693,7 @@ margin-right: 47px;
         gap: 27px;
         opacity: 0;
         cursor: pointer;
+        overflow: hidden;
     }
     
     .hover-cover:hover {
