@@ -30,7 +30,9 @@ p {
 
 @media (max-width:768px) {
     body {
-        padding-left: 28px;
-        padding-right: 29px;
+        /* padding-left: 28px;
+        padding-right: 29px; */
+
+        padding: 0;
     }
 }

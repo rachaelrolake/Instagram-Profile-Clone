@@ -108,7 +108,7 @@
     }
 
     .story-highlights {
-        padding-left: 0 !important;
+        padding-left: 10px !important;
     }
     
     .story-info {
@@ -123,6 +123,7 @@
 
     .theiewiuey {
         display: block !important;
+        margin-left: 10px;
     }
 }
 
@@ -252,9 +253,6 @@ margin-right: 47px;
         display: none !important;
     }
 
-    .horizontal-rule-sm {
-        border: 1pt solid rgb(226, 226, 226);
-    }
 }
 
 .profile-btn {
@@ -551,6 +549,9 @@ margin-right: 47px;
     }
 
     .trttte {
+        border-top: 2px solid rgb(226, 226, 226);
+        border-bottom: 2px solid rgb(226, 226, 226);
+        margin-bottom: 15px !important;
          
         display: flex;
         justify-content: space-around;
