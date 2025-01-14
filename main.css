@@ -613,6 +613,11 @@ margin-right: 47px;
 }
 
 @media (max-width:768px) {
+
+    .caption-message2 {
+        font-size: 13px;
+    }
+
     .inst-links-flex {
         display: none;
     }
