@@ -644,17 +644,32 @@ margin-right: 47px;
     .nfuufuf, .hrrhr, .jtjjjt {
         text-align: center;
         font-weight: 600;
+        font-size: 14px;
     }
 
     .fhhfgr, .kkkrrj, .jffuuff {
         color: rgb(151, 149, 149);
+        font-size: 15px;
+    }
+
+    .dhhfj{
+        position: relative;
+    }
+
+    .dkkdrule2 {
+        width: 227px;
+        position: absolute;
+        top: 33px;
+        left: -90px;
+        border-color: black;
+    
     }
 
     .instagram-pictures {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 4px;
-        margin-bottom: 900px;
+        margin-bottom: 600px;
     }
     
     .instagram-pictures  img {
