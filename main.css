@@ -588,6 +588,8 @@ margin-right: 47px;
     
 }
 
+
+
 /* .inst-post-like .like-icon, .inst-post-like .like-num {
     opacity: 0;
 } */
@@ -641,6 +643,74 @@ margin-right: 47px;
 
     .fhhfgr, .kkkrrj, .jffuuff {
         color: rgb(151, 149, 149);
+    }
+
+    .instagram-pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 4px;
+       
+    }
+    
+    .instagram-pictures  img {
+        width: 100%;
+        cursor: pointer;
+        /* height: 200px; */
+    }
+    
+    .instapic1, .instapic2, .instapic3 {
+        position: relative;
+    }
+    
+    .image-stack-icon {
+        position: absolute;
+        top: 10px;
+        right: 7px;
+    }
+    
+    .image-stack-icon img {
+        width: 17px;
+    }
+    
+    .hover-cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 3px;
+    
+        transition: background-color 0.15s ease-in,
+            opacity 0.15s ease-in;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 27px;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    .hover-cover:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 1;
+    }
+    
+    .inst-post-like {
+        display: flex;
+    
+    }
+    
+    .inst-post-like .like-icon {
+        width: 20px;
+        height: 20px;
+        padding-right: 7px;
+    
+    }
+    
+    .inst-post-like .like-num {
+        font-weight: 800;
+        color: rgb(226, 226, 226);
+    
+        
     }
 }
 
