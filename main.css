@@ -84,7 +84,7 @@
 
     .picture {
         display: block;
-        padding-top: 125px;
+        padding-top: 175px;
     }
 
     .user-content2 {
@@ -92,7 +92,7 @@
     }
 
     .frerseh{
-        padding-top: 30px;
+        padding-top: 62px;
     }
 
     .btnser {
@@ -314,6 +314,7 @@ margin-right: 47px;
 .user-name {
     padding-top: 5px;
     font-size: 21px;
+    font-weight: normal;
     margin-right: 15px;
     cursor: pointer;
 }
