@@ -654,14 +654,14 @@ margin-right: 47px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 4px;
-       
+        margin-bottom: 900px;
     }
     
     .instagram-pictures  img {
         width: 100%;
         cursor: pointer;
         /* height: 200px; */
-        margin-bottom: 900px;
+        
     }
     
     .instapic1, .instapic2, .instapic3 {
@@ -683,7 +683,7 @@ margin-right: 47px;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: 3px;
     
         transition: background-color 0.15s ease-in,
             opacity 0.15s ease-in;
