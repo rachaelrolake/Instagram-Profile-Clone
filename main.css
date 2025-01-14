@@ -120,6 +120,10 @@
         width: 56px !important;
         height: 56px !important;
     }
+
+    .theiewiuey {
+        display: block !important;
+    }
 }
 
 .theiewiuey {
@@ -579,15 +583,17 @@ margin-right: 47px;
 }
 
 @media (max-width:766px) {
+    
+
     .header {
         /* width: 100%; */
         height: 40px;
-        display: flex;
+        display: flex ;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         background-color: white;
-        position: fixed;
+        position: fixed !important;
         top: 0;
         left: 0;
         right: 0;
