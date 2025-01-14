@@ -24,7 +24,7 @@
 
 .content-info {
     display: grid;
-    grid-template-columns: 310px 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 10px;
 
 }
@@ -84,7 +84,7 @@
 
     .picture {
         display: block;
-        padding-top: 119px;
+        padding-top: 99px;
     }
 
     .user-content2 {
@@ -244,7 +244,17 @@ margin-right: 47px;
 }
 
 @media (max-width:768px) {
-    
+    .toggle-flex {
+        display: none !important;
+    }
+
+    .horizontal-rule {
+        display: none !important;
+    }
+
+    .horizontal-rule-sm {
+        border: 1pt solid rgb(226, 226, 226);
+    }
 }
 
 .profile-btn {
@@ -405,6 +415,8 @@ margin-right: 47px;
     cursor: pointer;
 }
 
+
+
 .toggler img {
     height: 12px;
     margin: 2px 4px 2px 0px;
@@ -521,6 +533,10 @@ margin-right: 47px;
     
 }
 
+.numberandtogglename {
+    display: none;
+}
+
 @media (max-width:768px) {
     .inst-links-flex {
         display: none;
@@ -528,6 +544,27 @@ margin-right: 47px;
 
     .wrapp {
         display: none !important;
+    }
+
+    .numberandtogglename {
+        display: block !important;
+    }
+
+    .trttte {
+         
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+         
+    }
+
+    .nfuufuf, .hrrhr, .jtjjjt {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .fhhfgr, .kkkrrj, .jffuuff {
+        color: rgb(151, 149, 149);
     }
 }
 
@@ -582,7 +619,7 @@ margin-right: 47px;
     }
 }
 
-@media (max-width:766px) {
+@media (max-width:768px) {
     
 
     .header {
