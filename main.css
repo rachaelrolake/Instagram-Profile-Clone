@@ -683,7 +683,7 @@ margin-right: 47px;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 3px;
+        bottom: 0;
     
         transition: background-color 0.15s ease-in,
             opacity 0.15s ease-in;
