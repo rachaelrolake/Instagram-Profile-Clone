@@ -24,22 +24,22 @@
 
 .content-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     column-gap: 10px;
 
 }
 
-@media (max-width: 1270px) and (min-width:876px) {
+/* @media (max-width: 1270px) and (min-width:876px) {
     .content-info {
         column-gap: 49px;
     }
-}
-
+} */
+/* 
 @media (max-width:875px) {
     .content-info {
         column-gap: 39px;
     }
-}
+} */
 
 .image-box {
     /* margin-left: 70px;
@@ -303,7 +303,7 @@ margin-right: 47px;
 
 .top-section {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
 }
 
 .user-content {
@@ -380,7 +380,7 @@ margin-right: 47px;
 }
 
 .bottom-section {
-    margin-top: 20px;
+    margin-top: 27px;
     cursor: pointer;
 }
 
@@ -630,6 +630,7 @@ margin-right: 47px;
         display: block !important;
     }
 
+    
     .trttte {
         border-top: 2px solid rgb(226, 226, 226);
         border-bottom: 2px solid rgb(226, 226, 226);
@@ -664,6 +665,17 @@ margin-right: 47px;
         border-color: black;
     
     }
+
+    .ffuff {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 12px;
+    }
+
+    .jfjfic img {
+        height: 20px;
+    }
+
 
     .instagram-pictures {
         display: grid;
