@@ -64,7 +64,7 @@
     height: 150px;
 }
 
-@media (max-width:769px) {
+@media (max-width:768px) {
 
    .small-screen-layout {
     display: flex;
@@ -77,9 +77,12 @@
    }
 
     .instagram-profile-picture2 {
-        width: 80px;
-        height: 80px;
-        border-radius: 40px;
+        width: 78px;
+        height: 78px;
+        border-radius: 45px;
+
+        padding: 2px;
+        border: 2px solid rgb(201, 201, 201);
     }
 
     .picture {
@@ -789,8 +792,8 @@ margin-right: 47px;
     color: rgb(141, 141, 141);
 } 
 
-@media (min-width:767px) {
-    .header {
+@media (min-width:769px) {
+    .header-sm {
         display: none;
     }
 
@@ -802,7 +805,7 @@ margin-right: 47px;
 @media (max-width:768px) {
     
 
-    .header {
+    .header-sm {
         /* width: 100%; */
         height: 40px;
         display: flex ;
@@ -822,6 +825,19 @@ margin-right: 47px;
     
     .header-icon {
         height: 22px;
+        
+    }
+
+    .mtedf {
+        display: flex;
+    }
+
+    .mtedf div {
+        margin-top: 5px;
+    }
+
+    .middle-icon {
+        height: 29px;
         
     }
 
