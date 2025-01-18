@@ -18,8 +18,12 @@
     padding-bottom: 3px;           
 }
 
+.instaLOgo {
+    display: none;
+}
+
 .instagram-new  {
-    visibility: hidden;
+    display: none;
 }
 
 .sidebar-icons {
@@ -100,15 +104,20 @@
     }
 
     .instagram-name  {
-        visibility: hidden;
+        display: none;
         padding-top: 0px;
     }
 
+    .instaLOgo {
+        display: block;
+    }
+
     .instagram-new {
-        height: 23px;
-        visibility: visible;
+        height: 22px;
+        display: block;
         padding-left: 13px;
-        padding-bottom: 12px;
+        padding-bottom: 40px;
+        padding-top: 27px;
     }
 }
 
